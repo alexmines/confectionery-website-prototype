@@ -18,7 +18,7 @@ html {
 }
 
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 38em) {
 
   html {
     font: 110%/1.4;
@@ -26,7 +26,7 @@ html {
 
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 60em) {
 
   html {
     font: 1120%/1.5;
@@ -34,12 +34,10 @@ html {
 
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 90em) {
 
   html {
     font: 130%/1.5;
   }
 
 }
-
-@media only screen and (min-width: 90em) {
