@@ -13,8 +13,124 @@ html {
   font: normal 100%/1.3;
 }
 
+
+
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  display: inline-block;
+  list-style-type: none;
+  line-height: 1.5;
+  margin: 0 0 .2em;
+  margin-bottom: .3em;
+  padding: 0 10px;
+  border-style: solid;
+  background-color: ;
+  border-color:;
+  border-radius: 5px;
+  color: ;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+.nav {
+  padding: 0;
+  text-align: center;
+  font-size: 1.125rem;
+}
+
+li {
+  display: inline-block;
+}
+
+h2 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 1rem;
+}
+
+h3 {
+  font-style: italic;
+  font-weight: normal;
+  margin: 0;
+  font-size: .875rem;
+}
+
+main {
+  padding: 1rem;
+  overflow: hidden;
+}
+
+p {
+  margin-top: 0;
+}
+
+.btn {
+  display: inline-block;
+  border-style: solid;
+  color: #f2f2f2;
+  background-color: #333;
+  border-color: #333;
+  padding: .4em .75em .3em;
+  border-width: 3px;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: black;
+  border-color: black;
+}
+
+.btn-small {
+  display: inline-block;
+  border-style: solid;
+  color: #f2f2f2;
+  background-color: #333;
+  border-color: #333;
+  padding: .4em .75em .3em;
+  border-width: 3px;
+  border-radius: 8px;
+}
+
+.btn-small:hover {
+  background-color: black;
+  border-color: black;
+}
+
+img {
+  display: block;
+  width: 100px;
+  margin: 0 auto 1.5rem;
+}
+
+div {
+  border-style: solid;
+  border-left: black;
+  border-bottom: none;
+  border-top: none;
+  float: left;
+  width: 25%;
+  padding: .75rem;
+  min-height: 25em;
+}
+
+.choco-one {
+  border-style: solid;
+  border-bottom: none;
+  border-top: none;
+  float: left;
+  width: 25%;
+  padding: .75rem;
+  min-height: 25em;
 }
 
 
