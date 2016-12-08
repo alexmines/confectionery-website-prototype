@@ -103,7 +103,7 @@ span {
   font-size: 1.5rem;
 }
 
-/**Third Page**/
+/**sale Page**/
 
 h2 {
   font-weight: bold;
@@ -164,24 +164,47 @@ img {
 }
 
 .choco-one, .choco-two, .choco-three, .choco-four {
-  border-style: solid;
-  border-left: black;
-  border-bottom: none;
-  border-top: none;
   float: left;
-  width: 25%;
+  width: 100%;
+  padding: .75rem;
+  min-height: 25em;
+  text-align: center;
+}
+
+.choco-one {
+  float: left;
+  float: left;
+  width: 100%;
+  padding: .75rem;
+  min-height: 25em;
+}
+
+.choco-two {
+  float: right;
+  float: left;
+  width: 100%;
+  padding: .75rem;
+  min-height: 25em;
+}
+
+.choco-three {
+  float: left;
+  float: left;
+  width: 100%;
   padding: .75rem;
   min-height: 25em;
 }
 
 .choco-one {
-  border-style: solid;
-  border-bottom: none;
-  border-top: none;
+  float: right;
   float: left;
-  width: 25%;
+  width: 100%;
   padding: .75rem;
   min-height: 25em;
+}
+
+.choco-pic {
+  width: 100%;
 }
 
 
@@ -190,7 +213,7 @@ img {
   html {
     font: 110%/1.4;
   }
-
+  
 }
 
 @media only screen and (min-width: 60em) {
