@@ -58,7 +58,7 @@ a {
 
 ul {
   text-align: center;
-  margin: 0;
+  margin-bottom: 1;
   padding: 0;
 }
 
@@ -253,8 +253,12 @@ p {
     line-height: 1.4;
   }
 
-  .section {
-    width: 75%;
+  .btn {
+    display: inline-block;
+    border-style: solid;
+    padding: .4em .75em .3em;
+    border-width: 3px;
+    border-radius: 8px;
   }
 
 }
@@ -266,10 +270,6 @@ p {
     line-height: 1.5;
   }
 
-  .section {
-    width: 50%;
-  }
-
 }
 
 @media only screen and (min-width: 90em) {
@@ -279,7 +279,4 @@ p {
     line-height: 1.5;
   }
 
-  .section {
-    width: 25%;
-  }
 }
