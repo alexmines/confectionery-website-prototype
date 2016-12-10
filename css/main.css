@@ -66,6 +66,10 @@ li {
   width: 75%;
 }
 
+a:hover {
+  background-color: lightgrey;
+}
+
 footer {
   margin-top: 3rem;
   background-color: grey;
@@ -73,7 +77,6 @@ footer {
   clear: both;
 }
 
-/**home Page**/
 .banner {
   position: relative;
   max-height: 500px;
@@ -105,14 +108,6 @@ span {
   font-size: 1.5rem;
 }
 
-/**sale Page**/
-
-.sale-title {
-  text-align: left;
-  font-size: 2rem;
-  font-weight: bold;
-  margin-left: 1rem;
-}
 h2 {
   font-weight: bold;
   margin: 0;
@@ -208,14 +203,12 @@ p {
   margin-left: 25%;
 }
 
-/**about Page**/
-
 .about-pic {
   display: block;
   float: none;
   width: 70%;
   height: inherit;
-margin-left: 25%;
+  margin-left: 25%;
 }
 
 .about-title {
@@ -229,26 +222,39 @@ margin-left: 25%;
 }
 
 .about-content {
-     width: 100%;
-     height: 200px;
-     margin: 0 auto;
-     display: block;
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  display: block;
 }
-.about-left, .about-right {
-    float: left;
 
-display: block;
+.about-left, .about-right {
+  float: left;
+  display: block;
 }
+
 .about-left {
-     width: 50%;
+  width: 50%;
 }
+
 .about-right {
-     width: 50%;
+  width: 50%;
 }
+
+@media only screen and (min-width: 25em) {
+
+
+}
+
 @media only screen and (min-width: 38em) {
 
   html {
-    font: normal 110%/1.4;
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .section {
+    width: 75%;
   }
 
 }
@@ -256,14 +262,12 @@ display: block;
 @media only screen and (min-width: 60em) {
 
   html {
-    font: normal 1120%/1.5;
+    font-size: 120%;
+    line-height: 1.5;
   }
 
-  .about-pic {
-    display: block;
-    float: left;
-    width: 25%;
-    margin: 1rem;
+  .section {
+    width: 50%;
   }
 
 }
@@ -271,7 +275,11 @@ display: block;
 @media only screen and (min-width: 90em) {
 
   html {
-    font: normal 130%/1.5;
+    font-size: 130%;
+    line-height: 1.5;
   }
 
+  .section {
+    width: 25%;
+  }
 }
