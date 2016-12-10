@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font: normal 100%/1.3 'Quattrocento', serif;
+  font: normal 100%/1.3 Quattrocento, serif;
 }
 
 *, *::before, *::after {
@@ -23,7 +23,7 @@ body {
 }
 
 h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: Pacifico, cursive;
   font-size: 3rem;
   display: block;
   text-align: center;
@@ -180,7 +180,6 @@ img {
 
 .choco-one {
   float: left;
-  float: left;
   width: 100%;
   padding: .75rem;
   min-height: 25em;
@@ -188,7 +187,6 @@ img {
 
 .choco-two {
   float: right;
-  float: left;
   width: 100%;
   padding: .75rem;
   min-height: 25em;
@@ -196,15 +194,13 @@ img {
 
 .choco-three {
   float: left;
-  float: left;
   width: 100%;
   padding: .75rem;
   min-height: 25em;
 }
 
-.choco-one {
+.choco-four {
   float: right;
-  float: left;
   width: 100%;
   padding: .75rem;
   min-height: 25em;
@@ -218,7 +214,7 @@ img {
 @media only screen and (min-width: 38em) {
 
   html {
-    font: 110%/1.4;
+    font: normal 110%/1.4;
   }
 
 }
@@ -226,7 +222,7 @@ img {
 @media only screen and (min-width: 60em) {
 
   html {
-    font: 1120%/1.5;
+    font: normal 1120%/1.5;
   }
 
 }
@@ -234,7 +230,7 @@ img {
 @media only screen and (min-width: 90em) {
 
   html {
-    font: 130%/1.5;
+    font: normal 130%/1.5;
   }
 
 }
